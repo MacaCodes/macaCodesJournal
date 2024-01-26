@@ -1,0 +1,93 @@
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    padding: 20px;
+}
+
+.navbar a {
+    font-family: "Exo", sans-serif;
+    color: aliceblue;
+}
+
+.banner {
+    display: flex;
+    height: 25px;
+}
+
+.banner img {
+    flex: 1;
+    object-fit: cover;
+}
+
+body {
+    font-family: "Exo", sans-serif;
+}
+
+.headshot {
+    display: flex;
+    justify-content: center;
+    flex-flow: row nowrap;
+    width: 200px;
+    /* Adjust the width as needed */
+    height: 200px;
+    /* Adjust the height as needed */
+    border-radius: 50%;
+}
+
+.about {
+    padding: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.gif1 {
+    display: flex;
+    flex-grow: 1; /* Adjust the width as needed */
+    height: auto; /* Automatically adjust height to maintain aspect ratio */
+    margin: 10px; /* Adjust the margin as needed for spacing */
+    order: 2
+}
+
+.week1 { 
+    order: 1;
+}
+
+h2 {
+    font-size: 30px;
+    padding: 0%;
+    color: #3498db;
+    text-shadow: 1px 2px 2px rgb(87, 87, 87);
+}
+
+h3 {
+    font-size: 20px;
+    padding: 0%;
+    color: #db34d5;
+    text-shadow: 1px 2px 2px rgb(172, 172, 172);
+}
+
+
+footer {
+    background-color: #000000;
+    padding: 1px;
+    font-family: "Exo", sans-serif;
+    color: aliceblue;
+    font-size: 9px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footerBanner {
+    display: flex;
+    height: 25px;
+}
+
+.footerBanner img {
+    flex: 1;
+    object-fit: cover;
+}
